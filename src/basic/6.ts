@@ -16,7 +16,11 @@
 //     email: 'john@example.com'
 // };
 
-interface User {
+// ------------------------------------------------------- Рішення: ------------------------------------------------------- //
+
+// Змінено назву на User1, бо дублюється на назва в ДЗ4 Generics
+
+interface User1 {
   name: string;
   age: number;
   email: string;
@@ -26,7 +30,7 @@ interface User {
   };
 }
 
-const mango: User = {
+const mango: User1 = {
   name: "Mango",
   age: 30,
   email: "john@example.com",
@@ -36,7 +40,7 @@ const mango: User = {
   },
 };
 
-const poly: User = {
+const poly: User1 = {
   name: "Mango",
   age: 30,
   email: "john@example.com",
